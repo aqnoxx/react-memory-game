@@ -1,0 +1,14 @@
+.timer_block{
+  width:100%;
+  height: 15%;
+  background: #484d6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer{
+  font-size: 64px;
+  color: orange;
+
+}

@@ -1,0 +1,11 @@
+.Card{
+  width: 24%;
+  height: 32%;
+  background: #08B2E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 128px;
+  color: #ffffff;
+}
