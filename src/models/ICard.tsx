@@ -1,4 +1,6 @@
 export interface ICard {
-  key: number,
-  value: string
+  value: string,
+  isOpened: boolean,
+  id: number,
+  openCardHandler: (key: number) => void
 }

@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import './Timer.css';
-import Menu from '../Menu/Menu';
+import Menu from '../Menu/Menu'
 
 export default function Timer() {
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState(30);
 
   useEffect(() => {
-    let from: number = 10;
+    let from: number = seconds;
     let timer = setInterval(() => {
       if (from === 0) {
         clearInterval(timer);
